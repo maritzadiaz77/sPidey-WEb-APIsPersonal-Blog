@@ -1,0 +1,22 @@
+hr {
+  height: 5px;
+  color: black;
+  background-color: black;
+  
+}
+.vertical {
+  transform: rotate(90deg);
+  margin-bottom: 
+ 
+}
+.vertical-2 {
+}
+
+.circle{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    /* margin-left: -1.75%; */
+    /* position: absolute; */
+}
