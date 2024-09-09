@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello!👋</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-</head>
-<header>☀️</header>
-<hr>
-<hr>
-<body>
-    <h1 class="circle">My First Blog</h1>
-    <p>sample</p>
-    <hr class="vertical">
-    <hr class="vertical-2">
-    <form></form>
-</body>
-<footer>
-</footer>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container dark">
+      <div class="header">
+        <ul>
+          <li><a href="#home"></a></li>
+          <li><a href="#gallery"></a></li>
+          <li><a href="#contact"></a></li>
+          <li><a href="#about"></a></li>
+        </ul>
+      </div>
+      <div class="row toggle">
+        <div class="col">
+          <p>🌜</p>
+        </div>
+        <label class="switch col">
+          <input type="checkbox" id="theme-switcher" />
+          <span class="slider round"></span>
+        </label>
+        <div class="col">
+          <p>☀️</p>
+        </div>
+      </div>
+      <hr class="vertical" />
+      <hr class="vertical-2" />
+
+      <h1>My First Blog</h1>
+      <p>sample</p>
+      <form></form>
+    </div>
+    <script src="./js/logic.js"></script>
+  </body>
+  <footer></footer>
 </html>
