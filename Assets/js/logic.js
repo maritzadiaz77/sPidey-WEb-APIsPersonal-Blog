@@ -1,3 +1,10 @@
+//listen for light and dark mode
+//function to put things into localstorage
+//function to get things out of storage
+//logic js has declaration of the function, but form js is where you call it
+
+
+//This is logic shared by both pages for the light and dark mode.
 // Access toggle switch HTML element
 const themeSwitcher = document.querySelector("#theme-switcher");
 const container = document.querySelector(".container");
