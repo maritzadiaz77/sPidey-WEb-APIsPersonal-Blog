@@ -1,24 +1,33 @@
 //get blog article out of localstorage
-const username = localStorage.getItem("username");
-const title = localStorage.getItem("title");
-const content = localStorage.getItem("content");
-//after this code, we need to update the UI..
-    //display them
-    //add event listener to button
+const blogPostArray = localStorage.getItem("blogPosts");
+let blogPost = JSON.parse(blogPostArray);
+const blogPostEl = document.querySelector("#Blog-post");
 
-    displayContent();
+//creating a loop so that it loops through the otehrs as well
+for (let blog of blogPost){
+    const storedUsername = blog.username;
+    const storedTitle = blog.title;
+    const storedContent = blog.content;
+    const card = document.createElement("div");
+    //DO THE SAME THING FOR THE OTHER 2-TITLE AND CONTENT
+    const usernameEl = document.createElement("h1");
+    usernameEl.textContent = storedUsername;
+    card.appendChild(usernameEl);
+    blogPostEl.appendChild(card);
 
-    function displayContent() {
-        const storedUsername = localStorage.getItem("username");
-        const storedTitle = localStorage.getItem("title");
-        const storedContent = localStorage.getItem("content");
-        usernameInput.textContent = storedUsername;
-        titleInput.textContent = storedTitle;
-        contentInput.textContent = storedContent;
-    }
+    const titleEl = document.createElement("h1");
+    titleEl.textContent = storedTitle;
+    card.appendChild(titleEl);
+    blogPostEl.appendChild(card);
 
+    const contentEl = document.createElement("h1");
+    contentEl.textContent = storedContent;
+    card.appendChild(contentEl);
+    blogPostEl.appendChild(card);
 
+}
 
+    //add event listener to buttoN
    //the document is searching for the id of backbtn
    const buttonEl = document.querySelector("#backBtn");
    //it is listening for the click

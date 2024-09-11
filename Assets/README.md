@@ -29,6 +29,6 @@ links
 ## Usage
 screenshot
 ## Credits
-
+Got some assistance from a TA and referred to class lectures for help.
 ## License
 N/A
