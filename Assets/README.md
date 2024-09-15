@@ -27,7 +27,11 @@ THEN I am presented with a link to the developer's portfolio.
 ## Installation
 links
 ## Usage
-screenshot
+![screenshot](<images/Hello!👋 - Google Chrome 9_15_2024 1_35_19 PM.png>)
+![alt text](<images/Hello!👋 - Google Chrome 9_15_2024 1_37_07 PM.png>)
+![alt text](<images/Hello!👋 - Google Chrome 9_15_2024 1_37_19 PM.png>)
+![alt text](<images/Hello!👋 - Google Chrome 9_15_2024 1_37_29 PM.png>)
+
 ## Credits
 Got some assistance from a TA and referred to class lectures for help.
 ## License
