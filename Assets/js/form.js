@@ -27,5 +27,5 @@ buttonEl.addEventListener("click", function () {
   console.log(blogPost);
   localStorage.setItem("blogPosts", JSON.stringify(blogPost));
   //the window is redirecting us to the blog html
-  window.location = "./blog.html";
+  window.location = "./Assets/blog.html";
 });
